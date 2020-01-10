@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   	 android:layout_height="match_parent"
+   	 android:layout_margin="10dp"
+android:background="@drawable/key"
+  	 android:orientation="vertical"
+  	  >
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:ems="10"
+            android:hint="USER NAME"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/ed2"
+            android:layout_alignStart="@+id/ed2"
+            android:layout_marginTop="58dp" />
+
+    <EditText
+            android:id="@+id/ed2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:ems="10"
+            android:hint="PASSWORD"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:singleLine="true"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/ed1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+      <ImageButton
+          android:id="@+id/bt"
+          android:layout_width="194dp"
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:background="@drawable/loginbutt"
+          android:layout_below="@+id/ed2"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="79dp" />
+
+    <Button
+
+
+        android:text="Admin SignUP"
+        android:layout_gravity="center"
+
+        android:id="@+id/button"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp" />
+
+</RelativeLayout>
+

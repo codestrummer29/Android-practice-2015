@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fafafa"
+    android:padding="20sp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET PIN"
+        android:gravity="center"
+        android:textSize="37sp"
+        android:textColor="#1bb1dd"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:hint="old pin"
+        android:textColorHint="#B0BEC5"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:id="@+id/etop"
+        android:inputType="numberPassword"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etop"
+        android:layout_marginTop="20sp"
+        android:hint="new pin"
+        android:textColorHint="#B0BEC5"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:id="@+id/etnp"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:layout_below="@+id/etnp"
+        android:layout_marginTop="20dp"
+        android:text="SUBMIT"
+        android:textColor="#1bb1dd"
+        android:background="#fafafa"
+        android:id="@+id/bsub"/>
+</RelativeLayout>

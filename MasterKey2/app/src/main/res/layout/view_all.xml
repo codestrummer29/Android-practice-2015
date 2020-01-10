@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fafafa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:id="@+id/spva"
+    android:padding="10dp">
+
+</Spinner>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tableLayout1"
+                android:background="#fafafa">
+
+                <TableRow
+                    android:layout_width="fill_parent">
+
+                    <TextView
+                        android:padding="16sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="ID number"
+                        android:textColor="#000"
+                        android:layout_weight="0.3"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:padding="16sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Account Name"
+                        android:textColor="#000"
+                        android:layout_weight="1"
+                        android:textSize="20dp"
+                        android:id="@+id/ac"/>
+                    <TextView
+                        android:padding="16sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Username"
+                        android:layout_weight="1"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:id="@+id/u"/>
+                    <TextView
+                        android:padding="16sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Password"
+                        android:textColor="#000"
+                        android:layout_weight="1"
+                        android:textSize="20dp"
+                        android:id="@+id/p"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent">
+
+                    <TextView
+                        android:padding="16sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text=""
+                        android:layout_weight="0.3"
+                        android:id="@+id/tvweb"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:background="#fafafa"/>
+                    <TextView
+                        android:padding="16sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:id="@+id/tvaccname"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:background="#fafafa"/>
+                    <TextView
+                        android:padding="16sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:id="@+id/tvuser"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:background="#fafafa"/>
+                    <TextView
+                        android:padding="16sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:id="@+id/tvpass"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:background="#fafafa"/>
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

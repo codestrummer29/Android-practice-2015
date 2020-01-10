@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\user_page.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\user_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\change_password.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\meeting.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\meeting.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\addmember.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\addmember.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\track1.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\track1.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\trackmeeting.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\trackmeeting.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\viewuser.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\viewuser.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\track.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\track.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\profile.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\build\\intermediates\\res\\merged\\debug\\menu\\show_map.xml",
+        "source": "C:\\Users\\HP\\Desktop\\ITAD012\\app\\src\\main\\res\\menu\\show_map.xml"
+    }
+]

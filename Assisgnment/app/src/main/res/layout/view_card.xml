@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/removeCard"
+        android:layout_alignParentRight="true"
+        android:text="Remove"/>
+
+    <ImageView
+        android:id="@+id/imageCard"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/removeCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+    <ImageButton
+        android:src="@mipmap/ic_camera_alt_black_24dp"
+        android:id="@+id/camera"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="Camera"/>
+
+    <ImageButton
+        android:src="@mipmap/ic_library_books_black_24dp"
+        android:id="@+id/storage"
+        android:text="Storage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+</RelativeLayout>

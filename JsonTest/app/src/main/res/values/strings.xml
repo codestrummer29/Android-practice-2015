@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Abodemart</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="facebook_app_id">1475945799380828</string>
+</resources>

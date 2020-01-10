@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fafafa"
+    android:padding="10sp">
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/spacc"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spacc"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:id="@+id/etname"
+        android:textColorHint="#B0BEC5"
+        android:hint="Enter account name"/>
+    <EditText
+        android:layout_marginTop="5sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textColorHint="#B0BEC5"
+        android:id="@+id/etuser"
+        android:layout_below="@+id/etname"/>
+    <EditText
+        android:layout_marginTop="5sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textColorHint="#B0BEC5"
+        android:id="@+id/etpass"
+        android:layout_below="@+id/etuser"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120sp"
+        android:layout_marginRight="120sp"
+        android:layout_below="@+id/etpass"
+        android:layout_marginTop="15dp"
+        android:text="SAVE"
+        android:textColor="#1bb1dd"
+        android:background="#fafafa"
+        android:id="@+id/bsave"/>
+</RelativeLayout>

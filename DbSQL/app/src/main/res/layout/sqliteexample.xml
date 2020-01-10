@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".SQLiteExample">
+
+    <TextView android:text="Name" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSQLName"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotness"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/etSQLName"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSQLHotness"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scale 1-10"
+        android:textSize="20dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/etSQLHotness" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/bSQLUpdate"
+        android:layout_below="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:id="@+id/bSQLOpenView"
+        android:layout_centerVertical="true" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bSQLOpenView"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Row ID"
+        android:id="@+id/etSQLrowInfo"/>
+    <Button
+        android:layout_width="100dp"
+        android:text="Get Info"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSQLrowInfo"
+        android:id="@+id/bgetInfo"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bgetInfo"
+        android:id="@+id/bSQLmodify"
+        android:text="Edit"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bSQLmodify"
+        android:text="Delete"
+        android:id="@+id/bSQLdelete"/>
+
+</RelativeLayout>

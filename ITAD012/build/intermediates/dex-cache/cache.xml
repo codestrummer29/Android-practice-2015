@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\ac3776e49a840f9bd0fb21c767fd79d20c916c29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_2c042e686fb278cd997f9d8ba8e4c41696e5b10c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\f9fcabfffc06438e2a87dcd355f49a109683c508\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_97c2b338a4e786029e09797cd9669c0fe5ec57e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\484ce59dd0f3e1d254e87681536b26da8df5971a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_182fdb3526a73dae4dcb02859ca93c7a574863ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\AppData\Local\Android\sdk5\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_b191590fbfe9572707387ac454071b16139578e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\3d2d5e2fd0942e3dec3741246b9acf61a0c08251\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_501a1072c8c5b49742519e9c871bf88ac1677059.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\71b5969a18eda29a5e661eeb1b59ee41e213ed8a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_c75c9a4b4aba1e309c938b29c84026f2c10ceb6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\7b276c299c8c943be33e3787c6b7f6ad832a5c37\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_fced5950de2ef9c598ad6e5f537b0eb64a8f1521.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\3b3d31dbbc7a9408882a6b0e34b88a018e99732b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_e26b0a8fcef4394d5aa2b7d45e65c28af388153e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\1c9ff67ffe74445464c50db5ed940a6a12b46eb0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_97b2d2b57bca3916989a2dc80f589501d4c24899.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\7e523dbccdd3d94bc6961afd6b3eab09c837e3d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_b307590b0f764bcb8330c4be77fe11da97b2edf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\4542a87f62c7230b7f5f87c5f2a86c8408beedc9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_8a328c5a5e135a6978a91aedae5d0ad3d9c13c92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\d724f53f4c3bb9cb9ed9e59f62e540c6b2489d0a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_2fff3bad63fb3c89cea2e47340324e5d58cf2811.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\1c9ff67ffe74445464c50db5ed940a6a12b46eb0\output\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0_1a8e474b7fcb4aa1267bbbd5c4192c3a16438cb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\e2ed88db7576edd19c8b75d1e2570c2b49260be7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_3a5f768c614570b7eb9e52765543698052af1538.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_e680f6e8be8f3dbc2fa903f4974657705a036724.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\a77528a457a253c614d32eb81ac4eca20046f22a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_888d5f0cf05f3095052458112424a6365d92a1b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\43b64cba988791e382a76db6eb77b3990e124d8b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_cd199326e35f266f7b8342fc10557316dc1ffb70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\8ab959613cbbd0773221323644026ea98cd566e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_5665a8a6c48d2d259a0ae4505b374810dc79fa62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_4bb464b24d3dbfb1bbc1ae6637229de655ebeb07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\59feb7744f38819366c9d0fbd0bd6f777603db8c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_78b79c2f49ac66482a984cc9f0fe188ff3457cc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_6c12afa9345d09b2d42e4aff744992800014045d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\74a47a1c7b5e3c4410513f08838bd223b56c7ed6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_2042d139131eb67285a5024ecb8626c4718bccef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\c542eb7f3f4cbc8d935c2e2f5ea95cc76cfc6215\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_06d799ddc3997fc557327a2ef04ee10578d05085.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP\.android\build-cache\db75c772a8558e783723c11aa4b27de311ccbf5b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\HP\Desktop\ITAD012\app\build\intermediates\pre-dexed\debug\classes_78ad13cf8a6ac3100e9e79c2fdcfdd6c1e5eb22f.jar" />
+    </item>
+
+</items>

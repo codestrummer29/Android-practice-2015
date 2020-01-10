@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="meeting.example.com.meetingfriends">
+
+<permission
+    android:name="com.example.savebus.permission.MAPS_RECEIVE"
+    android:protectionLevel="signature" />
+
+<uses-permission android:name="meeting.example.com.meetingfriends.permission.MAPS_RECEIVE" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+<application
+    android:allowBackup="false"
+    android:icon="@drawable/finder"
+    android:label="@string/app_name"
+    android:theme="@style/AppTheme" >
+    <activity
+        android:name="Manager"
+        android:label="@string/app_name" >
+    </activity>
+    <activity
+        android:name="UserPage"
+        android:label="@string/title_activity_user_page" >
+
+
+
+    </activity>
+    <activity
+        android:name="Addmember"
+        android:label="@string/title_activity_addmember" >
+    </activity>
+    <activity
+        android:name="Track"
+        android:label="@string/title_activity_track" >
+    </activity>
+    <activity
+        android:name="Meeting"
+        android:label="@string/title_activity_meeting" >
+
+    </activity>
+    <activity
+        android:name="Viewuser"
+        android:label="@string/title_activity_viewuser" >
+
+    </activity>
+    <activity
+        android:name=".Adminadd"
+        android:label="@string/title_activity_viewuser" >
+
+    </activity>
+    <activity
+        android:name=".Login"
+        android:label="@string/title_activity_login">
+
+    </activity>
+    <activity
+        android:name=".Splash"
+        android:label="@string/title_activity_login" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+    <meta-data
+        android:name="com.google.android.maps.v2.API_KEY"
+        android:value="AIzaSyBLc8Zget08NR8KMAw2X3yxG8pszIsAAcE" />
+
+    <activity
+        android:name=".Trackmeeting"
+        android:label="@string/title_activity_trackmeeting" >
+    </activity>
+
+    <activity
+        android:name=".ChangePassword"
+        android:label="@string/title_activity_change_password" >
+    </activity>
+    <activity
+        android:name=".ShowMap"
+        android:label="@string/title_activity_show_map" >
+    </activity>
+    <activity
+        android:name=".UserMeeting"
+        android:label="Get Meeting Location" >
+    </activity>
+</application>
+
+</manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    android:padding="20sp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Password"
+        android:gravity="center"
+        android:background="#fafafa"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#1bb1dd"/>
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etnp"
+        android:hint="Enter your pass"
+        android:inputType="number"
+        android:textColorHint="#B0BEC5"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110sp"
+        android:layout_marginRight="110sp"
+        android:background="#fafafa"
+        android:text="Enter"
+        android:textColor="#1bb1dd"
+        android:layout_below="@+id/etnp"
+        android:id="@+id/btnp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnp"
+        android:layout_marginTop="30dp"
+        android:text="This is your main password."
+        android:gravity="center"
+        android:textColor="#1bb1dd"
+        android:textSize="25sp"/>
+</RelativeLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#FFFFFF"
+    android:padding="5dp"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="220dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/butterscotch">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="Butter Scotch"/>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/paisa"
+                    android:layout_width="wrap_content"
+                    android:textSize="19dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 60"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="Quantity"
+                    android:textSize="19dp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="100dp"
+                    android:id="@+id/quant"
+                    android:layout_toRightOf="@+id/paisa"/>
+                <TextView
+                    android:id="@+id/value10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="0"
+                    android:textSize="22dp"
+                    android:layout_toRightOf="@+id/remove10"/>
+                <ImageView
+                    android:id="@+id/remove10"
+                    android:layout_toRightOf="@+id/quant"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_delete"/>
+                <ImageView
+                    android:layout_toRightOf="@+id/value10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/add10"
+                    android:src="@android:drawable/ic_input_add"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="220dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/chocolate">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="Chocolate"/>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/paisa2"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 55"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="Quantity"
+                    android:textSize="19dp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="100dp"
+                    android:id="@+id/quant2"
+                    android:layout_toRightOf="@+id/paisa2"/>
+                <TextView
+                    android:id="@+id/value11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="0"
+                    android:textSize="22dp"
+                    android:layout_toRightOf="@+id/remove11"/>
+                <ImageView
+                    android:id="@+id/remove11"
+                    android:layout_toRightOf="@+id/quant2"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_delete"/>
+                <ImageView
+                    android:layout_toRightOf="@+id/value11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/add11"
+                    android:src="@android:drawable/ic_input_add"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="220dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/strawberry">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="Strawberry"/>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/paisa3"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 40"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="Quantity"
+                    android:textSize="19dp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="100dp"
+                    android:id="@+id/quant3"
+                    android:layout_toRightOf="@+id/paisa3"/>
+                <TextView
+                    android:id="@+id/value12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="0"
+                    android:textSize="22dp"
+                    android:layout_toRightOf="@+id/remove12"/>
+                <ImageView
+                    android:id="@+id/remove12"
+                    android:layout_toRightOf="@+id/quant3"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_delete"/>
+                <ImageView
+                    android:layout_toRightOf="@+id/value12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/add12"
+                    android:src="@android:drawable/ic_input_add"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,299 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:2:1-99:12
+	package
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:2:11-69
+permission#com.example.savebus.permission.MAPS_RECEIVE
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:5:5-7:47
+	android:protectionLevel
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:7:9-44
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:6:9-67
+uses-permission#com.example.meeting.permission.MAPS_RECEIVE
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:9:5-83
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:9:22-80
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\HP\.android\build-cache\484ce59dd0f3e1d254e87681536b26da8df5971a\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:7.5.0] C:\Users\HP\.android\build-cache\74a47a1c7b5e3c4410513f08838bd223b56c7ed6\output\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:11:5-98
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:11:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:14:5-79
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\HP\.android\build-cache\484ce59dd0f3e1d254e87681536b26da8df5971a\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:7.5.0] C:\Users\HP\.android\build-cache\d724f53f4c3bb9cb9ed9e59f62e540c6b2489d0a\output\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:17:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:18:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:19:5-81
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:20:5-71
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:20:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:21:22-72
+application
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:23:5-97:19
+MERGED from [com.google.android.gms:play-services:7.5.0] C:\Users\HP\.android\build-cache\d7dffad6e1841d4cf07ad7446c2a310b347a44ed\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\HP\.android\build-cache\484ce59dd0f3e1d254e87681536b26da8df5971a\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:7.5.0] C:\Users\HP\.android\build-cache\8ab959613cbbd0773221323644026ea98cd566e3\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:7.5.0] C:\Users\HP\.android\build-cache\74a47a1c7b5e3c4410513f08838bd223b56c7ed6\output\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-appstate:7.5.0] C:\Users\HP\.android\build-cache\3d2d5e2fd0942e3dec3741246b9acf61a0c08251\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:7.5.0] C:\Users\HP\.android\build-cache\c542eb7f3f4cbc8d935c2e2f5ea95cc76cfc6215\output\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:22.0.0] C:\Users\HP\.android\build-cache\1c9ff67ffe74445464c50db5ed940a6a12b46eb0\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\HP\.android\build-cache\c2161d647bb25c78a62823d1c3c4f5a29c250be4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\HP\.android\build-cache\383743d0e880a816287d476d51360b51c2e79a6c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\HP\.android\build-cache\fc1915c416384de5225f376672e40a0ddd6efa6e\output\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-fitness:7.5.0] C:\Users\HP\.android\build-cache\43b64cba988791e382a76db6eb77b3990e124d8b\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:7.5.0] C:\Users\HP\.android\build-cache\71b5969a18eda29a5e661eeb1b59ee41e213ed8a\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:7.5.0] C:\Users\HP\.android\build-cache\7b276c299c8c943be33e3787c6b7f6ad832a5c37\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\HP\.android\build-cache\59feb7744f38819366c9d0fbd0bd6f777603db8c\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:7.5.0] C:\Users\HP\.android\build-cache\d724f53f4c3bb9cb9ed9e59f62e540c6b2489d0a\output\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:7.5.0] C:\Users\HP\.android\build-cache\ac3776e49a840f9bd0fb21c767fd79d20c916c29\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:7.5.0] C:\Users\HP\.android\build-cache\3b3d31dbbc7a9408882a6b0e34b88a018e99732b\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:7.5.0] C:\Users\HP\.android\build-cache\f9fcabfffc06438e2a87dcd355f49a109683c508\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-identity:7.5.0] C:\Users\HP\.android\build-cache\a77528a457a253c614d32eb81ac4eca20046f22a\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-wearable:7.5.0] C:\Users\HP\.android\build-cache\db75c772a8558e783723c11aa4b27de311ccbf5b\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\HP\.android\build-cache\4542a87f62c7230b7f5f87c5f2a86c8408beedc9\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\HP\.android\build-cache\7e523dbccdd3d94bc6961afd6b3eab09c837e3d6\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\HP\.android\build-cache\79ba18a5985526aeb5dc7f30d3c03724166cff77\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\HP\.android\build-cache\3a307b7409c7c9968db1d9262a12609d8d70ab0f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\HP\.android\build-cache\71246f5aee65be3b44b429d62afb9bf6d879670e\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\HP\.android\build-cache\02e77ec6878d90f359cd4f284d678f340d263596\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\HP\.android\build-cache\3bef9087a657baf0948a2152773113528925e298\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\HP\.android\build-cache\77092beddbcd9fa5bdc4e42fc04f24c7474bc774\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\HP\.android\build-cache\e2ed88db7576edd19c8b75d1e2570c2b49260be7\output\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:26:9-41
+	android:allowBackup
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:24:9-35
+	android:icon
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:25:9-40
+	android:theme
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:27:9-40
+activity#com.example.meeting.Manager
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:28:9-31:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:29:13-55
+activity#com.example.meeting.UserPage
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:32:9-38:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:34:13-61
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:33:13-56
+activity#com.example.meeting.Addmember
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:39:9-42:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:41:13-61
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:40:13-57
+activity#com.example.meeting.Track
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:43:9-46:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:45:13-57
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:44:13-53
+activity#com.example.meeting.Meeting
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:47:9-51:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:49:13-59
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:48:13-55
+activity#com.example.meeting.Viewuser
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:52:9-56:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:54:13-60
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:53:13-56
+activity#com.example.meeting.Adminadd
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:57:9-61:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:59:13-60
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:58:13-56
+activity#com.example.meeting.Login
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:62:9-66:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:64:13-57
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:63:13-53
+activity#com.example.meeting.Splash
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:67:9-75:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:69:13-57
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:68:13-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:70:14-74:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:73:17-77
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:73:27-74
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:77:9-79:69
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\HP\.android\build-cache\7e523dbccdd3d94bc6961afd6b3eab09c837e3d6\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:79:13-66
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:78:13-58
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:80:9-82:71
+	android:value
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:82:13-68
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:81:13-62
+activity#com.example.meeting.Trackmeeting
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:84:9-87:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:86:13-64
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:85:13-60
+activity#com.example.meeting.ChangePassword
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:89:9-92:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:91:13-67
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:90:13-62
+activity#com.example.meeting.ShowMap
+ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:93:9-96:20
+	android:label
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:95:13-60
+	android:name
+		ADDED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml:94:13-55
+uses-sdk
+INJECTED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services:7.5.0] C:\Users\HP\.android\build-cache\d7dffad6e1841d4cf07ad7446c2a310b347a44ed\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:7.5.0] C:\Users\HP\.android\build-cache\484ce59dd0f3e1d254e87681536b26da8df5971a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:7.5.0] C:\Users\HP\.android\build-cache\8ab959613cbbd0773221323644026ea98cd566e3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:7.5.0] C:\Users\HP\.android\build-cache\74a47a1c7b5e3c4410513f08838bd223b56c7ed6\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:7.5.0] C:\Users\HP\.android\build-cache\3d2d5e2fd0942e3dec3741246b9acf61a0c08251\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:7.5.0] C:\Users\HP\.android\build-cache\c542eb7f3f4cbc8d935c2e2f5ea95cc76cfc6215\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:22.0.0] C:\Users\HP\.android\build-cache\1c9ff67ffe74445464c50db5ed940a6a12b46eb0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\HP\.android\build-cache\c2161d647bb25c78a62823d1c3c4f5a29c250be4\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\HP\.android\build-cache\383743d0e880a816287d476d51360b51c2e79a6c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\HP\.android\build-cache\fc1915c416384de5225f376672e40a0ddd6efa6e\output\AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-fitness:7.5.0] C:\Users\HP\.android\build-cache\43b64cba988791e382a76db6eb77b3990e124d8b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:7.5.0] C:\Users\HP\.android\build-cache\71b5969a18eda29a5e661eeb1b59ee41e213ed8a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:7.5.0] C:\Users\HP\.android\build-cache\7b276c299c8c943be33e3787c6b7f6ad832a5c37\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:7.5.0] C:\Users\HP\.android\build-cache\59feb7744f38819366c9d0fbd0bd6f777603db8c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:7.5.0] C:\Users\HP\.android\build-cache\d724f53f4c3bb9cb9ed9e59f62e540c6b2489d0a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:7.5.0] C:\Users\HP\.android\build-cache\ac3776e49a840f9bd0fb21c767fd79d20c916c29\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:7.5.0] C:\Users\HP\.android\build-cache\3b3d31dbbc7a9408882a6b0e34b88a018e99732b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:7.5.0] C:\Users\HP\.android\build-cache\f9fcabfffc06438e2a87dcd355f49a109683c508\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:7.5.0] C:\Users\HP\.android\build-cache\a77528a457a253c614d32eb81ac4eca20046f22a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\AndroidManifest.xml:28:5-42
+MERGED from [com.google.android.gms:play-services-wearable:7.5.0] C:\Users\HP\.android\build-cache\db75c772a8558e783723c11aa4b27de311ccbf5b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:7.5.0] C:\Users\HP\.android\build-cache\4542a87f62c7230b7f5f87c5f2a86c8408beedc9\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.5.0] C:\Users\HP\.android\build-cache\7e523dbccdd3d94bc6961afd6b3eab09c837e3d6\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\HP\.android\build-cache\79ba18a5985526aeb5dc7f30d3c03724166cff77\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\HP\.android\build-cache\3a307b7409c7c9968db1d9262a12609d8d70ab0f\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\HP\.android\build-cache\71246f5aee65be3b44b429d62afb9bf6d879670e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\HP\.android\build-cache\02e77ec6878d90f359cd4f284d678f340d263596\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\HP\.android\build-cache\3bef9087a657baf0948a2152773113528925e298\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\HP\.android\build-cache\77092beddbcd9fa5bdc4e42fc04f24c7474bc774\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\HP\.android\build-cache\e2ed88db7576edd19c8b75d1e2570c2b49260be7\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.1] C:\Users\HP\.android\build-cache\c2161d647bb25c78a62823d1c3c4f5a29c250be4\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Desktop\ITAD012\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.5.0] C:\Users\HP\.android\build-cache\aecbb5d0832053aac4982ad0b3c804f7c0aad5e6\output\AndroidManifest.xml:30:19-91
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:22:22-71
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:25:9-27:36
+	android:value
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:27:13-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:26:13-69
+receiver#com.google.android.gms.wallet.EnableWalletOptimizationReceiver
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:28:9-34:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:29:13-90
+intent-filter#com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:31:13-33:29
+action#com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION
+ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:32:17-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.5.0] C:\Users\HP\.android\build-cache\d8c5c19ea3d7c070b7491a984fd85b2bdac671d5\output\AndroidManifest.xml:32:25-96
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\AndroidManifest.xml:24:5-26:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\AndroidManifest.xml:25:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:7.5.0] C:\Users\HP\.android\build-cache\c67f013633db10cf3dc8934f09741a707ba07a0d\output\AndroidManifest.xml:26:8-31

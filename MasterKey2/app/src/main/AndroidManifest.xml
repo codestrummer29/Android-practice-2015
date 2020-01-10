@@ -1,0 +1,73 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saahil.masterkey">
+
+    <supports-screens android:resizeable="true"
+    android:smallScreens="true"
+    android:normalScreens="true"
+    android:largeScreens="false"
+    android:xlargeScreens="false"
+    android:anyDensity="true" />
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_action_screen_locked_to_portrait"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Start"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.Menu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewEntry"
+            android:label="@string/new_e"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Update"
+            android:label="@string/update_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PassChange"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".NewPass"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TabActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1">
+        </activity>
+
+    </application>
+</manifest>

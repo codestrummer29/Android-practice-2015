@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+  <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+      <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+          card_view:cardBackgroundColor="#FFFFFF">
+
+        <RelativeLayout
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relative"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp">
+            <com.pkmmte.view.CircularImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:border="true"
+                android:paddingLeft="10dp"
+                android:paddingTop="9dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/profile_image"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name"
+                android:text="Name"
+                android:textSize="13dp"
+                android:textColor="#000000"
+                android:layout_toRightOf="@+id/profile_image"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rowlocation"
+                android:text="Title"
+                android:textSize="12dp"
+                android:textColor="#303F9F"
+                android:textStyle="bold"
+                android:layout_below="@+id/user_name"
+                android:layout_toRightOf="@+id/profile_image"
+                android:paddingLeft="5dp"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="4 December"
+                 android:paddingRight="15dp"
+                 android:paddingTop="5dp"
+                 android:layout_alignParentRight="true"
+                 android:id="@+id/date"
+                 android:textColor="#9E9E9E"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:id="@+id/rowimage"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/relative"
+                android:scaleType="centerCrop"/>
+             <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pgbar1"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rowimage"
+                android:id="@+id/ll2"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rowprice"
+                    android:text="price"
+                    android:padding="5dp"
+                    android:layout_below="@+id/rowimage"
+                    android:textSize="15dp"
+                    android:layout_weight="40"
+                    android:textColor="#E91E63"/>
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:id="@+id/rowcontact"
+                    android:text="contact"
+                    android:paddingLeft="10dp"
+                    android:textSize="13dp"
+                    android:focusable="false"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_weight="65"
+                    android:drawableLeft="@mipmap/ic_phone_black_18dp"
+                    android:textColor="#000000"
+                />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="13dp"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:textColor="#9E9E9E"
+                android:id="@+id/description"
+                android:layout_below="@+id/ll2"/>
+
+         </RelativeLayout>
+
+      </android.support.v7.widget.CardView>
+  </FrameLayout>
+
+</LinearLayout>

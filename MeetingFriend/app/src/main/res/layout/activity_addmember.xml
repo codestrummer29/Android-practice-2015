@@ -1,0 +1,76 @@
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.meeting.Addmember" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/osoyoosmeeting" />
+
+
+
+
+
+            <EditText
+                android:id="@+id/userid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/editgrey"
+                android:ems="10"
+                android:hint="Enter the User Name"
+                android:padding="7dp"
+
+                android:textColor="@android:color/black"
+                android:textSize="16dp">
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+
+                android:text="Add" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+
+
+        android:text="Fetch From Contacts" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+
+
+        android:text="View" />
+
+
+</LinearLayout>

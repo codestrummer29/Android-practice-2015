@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fafafa"
+    android:padding="20sp">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Enter ID no."
+        android:textColorHint="#B0BEC5"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:id="@+id/etget1"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/etget1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="86dp"
+        android:text="Get Details"
+        android:textColor="#1bb1dd"
+        android:background="#fafafa"
+        android:id="@+id/bget"/>
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="old detail1"
+        android:layout_below="@+id/etget1"
+        android:id="@+id/old1" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/old1"
+        android:textColorHint="#B0BEC5"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:hint="Type here new detail"
+        android:id="@+id/etget2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1bb1dd"
+        android:background="#fafafa"
+        android:text="Same as previous"
+        android:id="@+id/btsame1"
+        android:layout_toRightOf="@+id/etget2"
+        android:layout_below="@id/old1"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:text="old detail2"
+        android:layout_below="@+id/etget2"
+        android:id="@+id/old2" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Type here new detail"
+        android:layout_height="wrap_content"
+        android:textColorHint="#B0BEC5"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_below="@id/old2"
+        android:id="@+id/etget3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1bb1dd"
+        android:background="#fafafa"
+        android:text="Same as previous"
+        android:id="@+id/btsame2"
+        android:layout_toRightOf="@+id/etget3"
+        android:layout_below="@id/old2"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="old detail3"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/etget3"
+        android:id="@+id/old3" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Type here new detail"
+        android:layout_height="wrap_content"
+        android:textColorHint="#B0BEC5"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_below="@id/old3"
+        android:id="@+id/etget4"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1bb1dd"
+        android:background="#fafafa"
+        android:text="Same as previous"
+        android:id="@+id/btsame3"
+        android:layout_toRightOf="@+id/etget4"
+        android:layout_below="@id/old3"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_below="@+id/etget4"
+        android:layout_marginTop="16dp"
+        android:text="UPDATE"
+        android:textColor="#1bb1dd"
+        android:background="#fafafa"
+        android:id="@+id/bset"/>
+</RelativeLayout>

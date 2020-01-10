@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fafafa"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Setup Process"
+        android:textColor="#1bb1dd"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:id="@+id/tvsp"/>
+    <TextView
+        android:layout_below="@+id/tvsp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="You will now have to set a main Password"
+        android:textColor="#1bb1dd"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:layout_marginTop="100sp"
+        android:gravity="center"
+        android:id="@+id/setuptv"/>
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvsp"
+        android:layout_marginTop="110sp"
+        android:id="@+id/by"
+        android:textColor="#1bb1dd"
+        android:background="#fafafa"
+        android:layout_toRightOf="@+id/setuptv"
+        android:text="Click Here"/>
+</RelativeLayout>
